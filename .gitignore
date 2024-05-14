@@ -1,0 +1,30 @@
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+nbproject
+.buildpath
+.project
+.settings
+*.sublime-project
+*.sublime-workspace
+Thumbs.db
+.DS_Store
+
+# composer vendor dir
+/vendor
+
+# composer itself is not needed
+composer.phar
+composer.lock
+
+# phpunit itself is not needed
+phpunit.phar
+# local phpunit config
+/phpunit.xml
+# phpunit cache
+.phpunit.result.cache
